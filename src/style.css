@@ -1,0 +1,68 @@
+html, body {
+  height: 100%; /* Make sure the body and html fill the screen */
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    border: white 2px solid;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    height: fit-content;
+    background-color: rgb(39, 39, 39);
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.inputBox input {
+
+    height: 40px;
+    color: gray;
+    text-decoration:  none;
+    border: white 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(163, 138, 138, 0);
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+
+.button {
+    width: fit-content;
+    text-align: center;
+    height: 40px;
+     color: rgb(0, 0, 0);
+     border: white 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(243, 243, 243);
+    
+    padding: 0px 10px;
+     transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
